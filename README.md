@@ -2,10 +2,6 @@
 
 Generate interfaces for interpreting vision models trained using RL.
 
-The core utilities used to compute feature visualization, attribution and dimensionality reduction can be found in `lucid.scratch.rl_util`, a submodule of [Lucid](https://github.com/tensorflow/lucid/). These are demonstrated in [this notebook](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/misc/rl_util.ipynb). The code here leverages these utilities to build HTML interfaces similar to the above demo.
-
-![](https://openaipublic.blob.core.windows.net/rl-clarity/attribution/demo.gif)
-
 ## Installation
 
 Supported platforms: MacOS and Ubuntu, Python 3.7, TensorFlow <= 1.14
